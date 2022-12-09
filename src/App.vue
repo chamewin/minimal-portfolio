@@ -1,10 +1,24 @@
-<script setup lang="ts">
-// This starter template is using Vue 3 <script setup> SFCs
-// Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
+<script lang="ts">
+import Intro from './components/Intro.vue';
+import Portfolio from './components/Portfolio.vue';
+import Contact from './components/Contact.vue';
+import Timeline from './components/Timeline.vue';
+import Footer from './components/Footer.vue';
+
+export default {
+  components: {
+    Intro,
+    Portfolio,
+    Contact,
+    Timeline,
+    Footer,
+  },
+};
 </script>
 
 <template>
-  <div>
-    <h1>hi</h1>
-  </div>
+  <Intro />
+  <Portfolio />
+  <Timeline />
+  <Contact />
 </template>

@@ -1,17 +1,11 @@
-<script lang="ts">
-import { defineComponent } from 'vue';
-
-export default defineComponent({
-  data() {
-    return {
-      count: 1,
-    };
-  },
-});
+<script setup lang="ts">
+  import intro from '../data/intro'
 </script>
 
 <template>
-  <p>Alyssa is a baka.</p>
+  <div className="flex items-center justify-center flex-col text-center pt-20 pb-6">
+    <h1 className="text-4xl md:text-7x">{{ intro.name }}</h1>
+    <p className="text-base md:text-xl mb-3 font-medium">{{ intro.title }}</p>
+    <p className="text-sm max-w-xl mb-6 font-bold">{{ intro.bio }}</p>
+  </div>
 </template>
-
-

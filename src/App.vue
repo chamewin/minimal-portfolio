@@ -2,6 +2,7 @@
 import Intro from './components/Intro.vue';
 import Portfolio from './components/Portfolio.vue'
 import Timeline from './components/Timeline.vue'
+import Footer from './components/Footer.vue'
 
 </script>
 
@@ -10,5 +11,6 @@ import Timeline from './components/Timeline.vue'
     <Intro />
     <Portfolio />
     <Timeline />
+    <Footer />
   </div>
 </template>

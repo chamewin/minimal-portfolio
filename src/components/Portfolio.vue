@@ -11,7 +11,7 @@ import portfolio from '../data/portfolio';
       >
         <img
           src="{{ project.imgUrl }}"
-          alt="project"
+          alt=""
           className="w-full h-36 md:h-48 object-cover cursor-pointer"
         />
         <div className="w-full p-4">
